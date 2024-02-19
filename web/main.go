@@ -56,6 +56,7 @@ func main() {
 	http.HandleFunc("/all", handlerAll)
 	log.Fatal(http.ListenAndServe(":8888", nil))
 }
+
 //go run main.go
 //go build main.go
 //.\main.exe
